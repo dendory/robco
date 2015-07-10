@@ -1,0 +1,14 @@
+{
+    "/DEBUG/ACCOUNTS.F": {
+        "content": "ADMIN:dddd5d7b474d2c78ebbb833789c4bfd721edf4bf\nTEST:7110eda4d09e062aa5e4a390b0a572ac0d2c0220",
+        "owner": "ADMIN",
+        "perms": "RO",
+        "type": "TEXT"
+    },
+    "/DEBUG/GROUPS.F": {
+        "content": "",
+        "owner": "ADMIN",
+        "perms": "RO",
+        "type": "TEXT"
+    }
+}

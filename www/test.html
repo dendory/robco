@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script>
+			var i = 0;
+			function add_input()
+			{
+				var curInput = document.getElementById('input' + i);
+				if(i != 0)
+				{
+					curInput.setAttribute('value', curInput.value);
+					curInput.setAttribute('readonly', true);
+				}
+				i++;
+				document.getElementById('main').innerHTML += "<p>&gt; <input type='text' style='width:90%' id='input" + i + "' onkeypress='press_key(event, this)'></p>";
+			}
+			function press_key(e, t)
+			{
+				if (e.keyCode == 13)
+				{
+					add_input();
+				}
+			}
+		</script>
+	</head>
+	<body onload='add_input()'>
+		<div id='main'>
+		</div>
+	</body>
+</html>
